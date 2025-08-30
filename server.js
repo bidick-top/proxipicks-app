@@ -21,7 +21,7 @@ const db = admin.firestore();
 const CACHE_DURATION_HOURS = 24;
 
 app.use(cors({
-    origin: 'https://jovial-babka-29d3b0.netlify.app/' // <-- 請換成您自己的 Netlify 網址
+    origin: 'https://jovial-babka-29d3b0.netlify.app' // <-- 請換成您自己的 Netlify 網址
 }));
 app.use(express.json());
 
