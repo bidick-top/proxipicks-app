@@ -1,0 +1,9 @@
+# 忽略 node.js 模組資料夾
+node_modules
+
+# 忽略環境變數檔案
+.env
+# .gitignore 檔案
+node_modules
+.env
+serviceAccountKey.json 
