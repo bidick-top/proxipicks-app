@@ -98,7 +98,7 @@ function performSearch(location) {
     const lng = location.lng();
     const type = typeFilter.value;
     const opennow = openNowFilter.checked;
-    const apiUrl = `http://localhost:3000/api/places?lat=${lat}&lng=${lng}&type=${type}&opennow=${opennow}`;
+    const apiUrl = `https://proxipicks-backend.onrender.com/api/places?lat=${lat}&lng=${lng}&type=${type}&opennow=${opennow}`;
     fetch(apiUrl)
         .then(response => {
             if (!response.ok) { throw new Error(`HTTP error! status: ${response.status}`); }
